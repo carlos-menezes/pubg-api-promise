@@ -7,7 +7,7 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i pubg-api-promise --save-dev
+$ npm i pubg-api-promise
 ```
 
 ## Usage
