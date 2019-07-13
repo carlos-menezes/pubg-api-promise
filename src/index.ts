@@ -16,24 +16,6 @@ export class PUBG {
   }
 
   /**
-   *
-   * @param authorization Wether the endpoint requires authorization (use of the API key) or not.
-   *
-   * @returns {Object} Request options object.
-   */
-  private applyRequestOptions(authorization: boolean) {
-    const headers: IHeaders = {
-      Accept: 'application/vnd.api+json',
-    };
-
-    if (authorization) {
-      headers.Authorization = `Bearer ${this.apiKey}`;
-    }
-
-    return { headers };
-  }
-
-  /**
    * 	This function returns information about a (list of) player(s) and a list of their recent matches (up to 14 days old).
    * Note: player objects are specific to platform shards.
    * @see [PUBG API Players Endpoint](https://documentation.pubg.com/en/players-endpoint.html)
@@ -48,7 +30,6 @@ export class PUBG {
    */
   public getPlayersInfo(filter: string, players: string[]) {
     const playersEndpoint: string = `${this.apiEndpoint}/players?filter[${filter}]=${players.join(',')}`;
-    console.log(playersEndpoint)
     
     return axios.get(playersEndpoint, this.applyRequestOptions(true));
   }
@@ -158,5 +139,23 @@ export class PUBG {
    */
   public getAPIStatus() {
     return axios.get('https://api.pubg.com/status', this.applyRequestOptions(false));
+  }
+
+  /**
+   *
+   * @param authorization Wether the endpoint requires authorization (use of the API key) or not.
+   *
+   * @returns {Object} Request options object.
+   */
+  private applyRequestOptions(authorization: boolean) {
+    const headers: IHeaders = {
+      Accept: 'application/vnd.api+json',
+    };
+
+    if (authorization) {
+      headers.Authorization = `Bearer ${this.apiKey}`;
+    }
+
+    return { headers };
   }
 }

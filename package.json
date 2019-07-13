@@ -1,7 +1,7 @@
 {
-  "name": "pubg-api-wrapper",
+  "name": "pubg-api-promise",
   "version": "1.0.0",
-  "description": "A simple wrapper for the PUBG API.",
+  "description": "A simple, promise-based wrapper for the PUBG API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "version" : "npm run format && git add -A src",
     "postversion" : "git push && git push --tags"
   },
-  "keywords": ["PUBG", "PUBG API", "PUBG API Wrapper", "PUBG Node", "PUBG Typescript"],
+  "keywords": ["PUBG", "PUBG API", "PUBG API Wrapper", "PUBG Node", "PUBG Typescript", "PUBG API promise"],
   "author": "Carlos Menezes",
   "license": "ISC",
   "dependencies": {

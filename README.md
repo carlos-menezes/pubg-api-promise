@@ -1,19 +1,19 @@
-# pubg-api-wrapper
+# pubg-api-promise
 
-> A simple wrapper for the PUBG API.
+> A simple, promise-based wrapper for the PUBG API.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i pubg-api-wrapper --save-dev
+$ npm i pubg-api-promise --save-dev
 ```
 
 ## Usage
 
 ```js
-var pubg-api-wrapper = require('pubg-api-wrapper');
+var pubg-api-promise = require('pubg-api-promise');
 ```
 
 ## Running tests
@@ -26,14 +26,14 @@ $ npm i -d && npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](#please create an issue)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/carlos-menezes/pubg-api-promise/issues)
 
 ## Author
 
 **Carlos Menezes**
 
-* [github/](https://github.com/carlos-menezes)
-* [twitter/](https://twitter.com/c_mnzs)
+* [github/](https://github.com/)
+* [twitter/](http://twitter.com/)
 
 ## License
 
