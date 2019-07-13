@@ -32,8 +32,8 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 **Carlos Menezes**
 
-* [github/](https://github.com/carlos-menezes)
-* [twitter/](https://twitter.com/c_mnzs)
+* [Github](https://github.com/carlos-menezes)
+* [Twitter](https://twitter.com/c_mnzs)
 
 ## License
 
