@@ -21,7 +21,7 @@ var pubg-api-promise = require('pubg-api-promise');
 Install dev dependencies:
 
 ```sh
-$ npm i -d && npm test
+$ npm i -d
 ```
 
 ## Contributing
