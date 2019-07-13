@@ -1,6 +1,6 @@
 {
   "name": "pubg-api-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, promise-based wrapper for the PUBG API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,5 +29,9 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/carlos-menezes/pubg-api-promise/"
+  }
 }
