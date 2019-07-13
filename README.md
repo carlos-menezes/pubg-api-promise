@@ -37,7 +37,7 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 ## License
 
-Copyright © 2019 [Carlos Menezes](#Carlos Menezes)
+Copyright © 2019 Carlos Menezes
 Licensed under the ISC license.
 
 ***
