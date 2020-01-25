@@ -13,16 +13,9 @@ $ npm i pubg-api-promise
 ## Usage
 
 ```js
-var pubg-api-promise = require('pubg-api-promise');
+var pubg = require('pubg-api-promise');
 ```
 
-## Running tests
-
-Install dev dependencies:
-
-```sh
-$ npm i -d
-```
 
 ## Contributing
 
